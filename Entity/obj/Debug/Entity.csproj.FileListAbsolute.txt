@@ -1,0 +1,5 @@
+F:\SOFTWARE ENGENIEERING\05.FALL 19\OOP2\codes\HostelX\Entity\bin\Debug\Entity.dll
+F:\SOFTWARE ENGENIEERING\05.FALL 19\OOP2\codes\HostelX\Entity\bin\Debug\Entity.pdb
+F:\SOFTWARE ENGENIEERING\05.FALL 19\OOP2\codes\HostelX\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+F:\SOFTWARE ENGENIEERING\05.FALL 19\OOP2\codes\HostelX\Entity\obj\Debug\Entity.dll
+F:\SOFTWARE ENGENIEERING\05.FALL 19\OOP2\codes\HostelX\Entity\obj\Debug\Entity.pdb

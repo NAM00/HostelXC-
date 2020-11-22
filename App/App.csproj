@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E2764AF7-A3BD-4967-AFFB-7DCBAAD04D11}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>App</RootNamespace>
+    <AssemblyName>App</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Application_management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application_management.Designer.cs">
+      <DependentUpon>Application_management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Complains_management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Complains_management.Designer.cs">
+      <DependentUpon>Complains_management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee_management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee_management.Designer.cs">
+      <DependentUpon>Employee_management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Landing_admin_gui.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Landing_admin_gui.Designer.cs">
+      <DependentUpon>Landing_admin_gui.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Landing_hsuper_gui.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Landing_hsuper_gui.Designer.cs">
+      <DependentUpon>Landing_hsuper_gui.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login_gui.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_gui.Designer.cs">
+      <DependentUpon>Login_gui.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tenant_applications.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tenant_applications.Designer.cs">
+      <DependentUpon>tenant_applications.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tenant_complains.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tenant_complains.Designer.cs">
+      <DependentUpon>tenant_complains.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tenant_landing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tenant_landing.Designer.cs">
+      <DependentUpon>Tenant_landing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tenant_management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tenant_management.Designer.cs">
+      <DependentUpon>Tenant_management.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Application_management.resx">
+      <DependentUpon>Application_management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Complains_management.resx">
+      <DependentUpon>Complains_management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee_management.resx">
+      <DependentUpon>Employee_management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Landing_admin_gui.resx">
+      <DependentUpon>Landing_admin_gui.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Landing_hsuper_gui.resx">
+      <DependentUpon>Landing_hsuper_gui.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_gui.resx">
+      <DependentUpon>Login_gui.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="tenant_applications.resx">
+      <DependentUpon>tenant_applications.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tenant_complains.resx">
+      <DependentUpon>tenant_complains.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tenant_landing.resx">
+      <DependentUpon>Tenant_landing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tenant_management.resx">
+      <DependentUpon>Tenant_management.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{5450a4ad-b23d-46fc-ae49-b897af90aaa8}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Repository\Repository.csproj">
+      <Project>{7cd35018-5190-462d-b967-9422a2818b78}</Project>
+      <Name>Repository</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

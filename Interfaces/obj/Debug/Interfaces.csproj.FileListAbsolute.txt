@@ -1,0 +1,9 @@
+F:\SOFTWARE ENGENIEERING\05.FALL 19\OOP2\codes\HostelX\Interfaces\bin\Debug\Interfaces.dll
+F:\SOFTWARE ENGENIEERING\05.FALL 19\OOP2\codes\HostelX\Interfaces\bin\Debug\Interfaces.pdb
+F:\SOFTWARE ENGENIEERING\05.FALL 19\OOP2\codes\HostelX\Interfaces\bin\Debug\Entity.dll
+F:\SOFTWARE ENGENIEERING\05.FALL 19\OOP2\codes\HostelX\Interfaces\bin\Debug\Entity.pdb
+F:\SOFTWARE ENGENIEERING\05.FALL 19\OOP2\codes\HostelX\Interfaces\obj\Debug\Interfaces.csprojAssemblyReference.cache
+F:\SOFTWARE ENGENIEERING\05.FALL 19\OOP2\codes\HostelX\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+F:\SOFTWARE ENGENIEERING\05.FALL 19\OOP2\codes\HostelX\Interfaces\obj\Debug\Interfaces.csproj.CopyComplete
+F:\SOFTWARE ENGENIEERING\05.FALL 19\OOP2\codes\HostelX\Interfaces\obj\Debug\Interfaces.dll
+F:\SOFTWARE ENGENIEERING\05.FALL 19\OOP2\codes\HostelX\Interfaces\obj\Debug\Interfaces.pdb
